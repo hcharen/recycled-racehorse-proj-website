@@ -1,0 +1,99 @@
+/* CSS STYLING */
+
+* {
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+body {
+  background-image: url(../img/racehorse.gif);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 35% 50%;
+  background-size: 100%;
+  margin: 0 auto;
+  text-align: center;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+
+  .row {
+    width: 100%;
+    margin-top: 13%;
+    margin-left: 5%;
+
+    clear: both;
+    vertical-align: baseline;
+}
+
+.btn-box {
+  display: block;
+  margin-left: 10%;
+}
+.btn-1 {
+    letter-spacing: 0;
+    font-family: 'Alegreya', serif;
+    font-size: 3.5em;
+    opacity: .75;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 100%;
+
+}
+.btn-1:visited,
+.btn-1:hover,
+.btn-1:active {
+  letter-spacing: 5px;
+  color: white;
+}
+
+.btn-1:after,
+.btn-1:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+  color: white;
+}
+
+.btn-1:hover:after,
+.btn-1:hover:before {
+  backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+  color: white;
+}
+
+.btn-1:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+  color: white;
+}
+
+/*    .button {
+//      font-family: 'Alegreya', serif;
+//      font-size: 3.5em;
+//      margin-left: 7%;
+//      margin-top: -5%;
+//      opacity: .75;
+//    }
+//
+//    a:link {
+//      color: white;
+//    }
+//
+//    a:visited {
+//      color: white;
+//  }
+*/

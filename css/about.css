@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+  background-image: url(../img/home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
