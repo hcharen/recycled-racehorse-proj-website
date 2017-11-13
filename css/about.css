@@ -17,6 +17,90 @@ body {
   width: 40%;
   margin-right: 3%;
   margin-top: 3%;
-  background: white;
+  background-color: white;
   opacity: .5;
+}
+
+.logo-pic {
+  position: relative;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.inlay-title {
+  position: relative;
+  text-decoration: underline;
+  margin-top: 5%;
+  margin-left: 39%;
+  font-family: 'Alegreya', serif;
+  font-size: 3.2em;
+}
+
+.info-text {
+  position: relative;
+  font-family: 'Alegreya', serif;
+  margin-left: 5%;
+  margin-top: 8%;
+  font-size: 1.4em;
+  line-height: 20px;
+}
+
+.donate {
+  position: relative;
+  font-family: 'Alegreya', serif;
+  font-size: 3em;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.donate:hover {
+  animation: pulse;
+  animation-duration: 3s;
+}
+
+@keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+
+.menu-wrap {
+  position: absolute;
+}
+
+li {
+  display: inline-block;
+  font-family: 'Alegreya', serif;
+  font-size: 1.15em;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  letter-spacing: 3px;
+}
+
+li a:visited,
+li a:hover,
+li a:active {
+  letter-spacing: 5px;
+  color: white;
+}
+
+li a:after,
+li a:before {
+  backface-visibility: hidden;
+  transition: all 280ms ease-in-out;
+  width: 0;
+  color: white;
+}
+
+li a:hover:after,
+li a:hover:before {
+  transition: width 350ms ease-in-out;
+}
+
+li a:hover:before {
+  width: 70%;
 }
