@@ -9,3 +9,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.donate-wrap {
+  position: relative;
+  float: right;
+  height: 550px;
+  width: 40%;
+  margin-right: 3%;
+  margin-top: 3%;
+  background: white;
+  opacity: .5;
+}
